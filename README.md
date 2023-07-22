@@ -78,7 +78,11 @@ npx prisma generate
 npx prisma db push
 npx prisma studio
 
+
 ```
+## Stripe Api Server
+.\stripe.exe listen --forward-to localhost:3000/api/webhook
+
 
 ### Start the app
 
